@@ -96,7 +96,7 @@ export default {
     inputWrapperClasses() {
       const map = {
         top: '',
-        left: 'w-2/3'
+        left: this.label ? 'w-2/3' : ''
       }
 
       return map[this.labelPosition]
